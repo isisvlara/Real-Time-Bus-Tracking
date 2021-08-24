@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+button {
+  box-shadow: 9px 9px 5px rgba(0, 0, 0, 0.438);
+  border-radius: 8px;
+  line-height: 33px;
+  font-size: 25px;
+  font-weight: normal;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+}
+p {
+  color: antiquewhite;
+  text-align: center;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.map-overlay {
+  background: rgb(126, 4, 4);
+  position: absolute;
+  left: 0;
+  padding: 10px;
+}
+
+.nav-link,
+.nav-link:hover {
+  color: antiquewhite;
+}

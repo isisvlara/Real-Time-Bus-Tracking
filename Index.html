@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Map Animation</title>
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Map/Mapstyles.css" />
+  </head>
+
+  <body>
+    <div id="map"></div>
+    <div class="map-overlay top">
+      <button style="font-size: 2em" onclick="move()">
+        Show stops between MIT and Harvard
+      </button>
+      <p>
+        Click on the button above ⬆ to see the bus stops between MIT and Harvard
+      </p>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Bus Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pacman.html">PacMan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Eyes.html">Rolling Eyes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Index.html">Home</a>
+        </li>
+      </ul>
+    </div>
+    <script src="Map/MapAnimation.js"></script>
+  </body>
+</html>
